@@ -5,3 +5,52 @@
   font-weight: <weight>;
   font-style: normal;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.btn-primary{
+    background-color: white;
+    font-size: 20px;
+    font-weight: #0D1321;
+    padding: 17px 24px;
+    border-radius: 8px;
+}
+.header{
+    background-image: url(../assets/Hero-bg.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+.nav-title{
+    font-weight: Extrabold;
+    font-size: 28px;
+}
+nav ul li{
+    list-style: none;
+    color: #0D1321;
+}
+.part-1{
+    font-size: 48px;
+    font-weight: Extrabold;
+}
+.hero-1{
+    width: 180px;
+    border-image-width: 500px;
+}
+.part-3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: Extrbold;
+}
+.exam-1{
+    text-align: left;
+}
+
+.exam-1> .tp {
+    justify-content: flex-end;
+}
+.parents{
+    align-items: center;
+}
